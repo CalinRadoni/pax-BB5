@@ -3,6 +3,8 @@
 The hardware board is the one created by me in 2017, published in [PAx5](https://github.com/CalinRadoni/PAx5) repository. The new addition is PlatformIO compatibility files to allow programming the board with 
 Arduino, CMSIS, LibOpenCM3 or STM32Cube frameworks.
 
+See the [docs site](https://calinradoni.github.io/pax-BB5/) for pinout, schematic and more.
+
 ## The code
 
 In the `src` directory I have created blink test code for Arduino, CMSIS, LibOpenCM3 and STM32Cube.
@@ -12,7 +14,7 @@ The selection between directories is made through `platformio.ini` configuration
 
 - STM32L051K8T MCU
 - RFM69HW transceiver module 868MHz
-- M25P10 128kB EEPROM
+- M25P10 128kB Flash memory
 - on-board LED
 - on-board switch port
 
