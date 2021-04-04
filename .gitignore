@@ -1,1 +1,16 @@
-.pio
+# ignore archives
+*.7z
+*.zip
+
+# ignore KiCad's backup files
+/HW/*.bak
+/HW/*.kicad_pcb-bak
+
+# ignore PlatformIO's build directory
+/.pio/
+
+# ignore Visual Studio Code's workspace files
+*.code-workspace
+
+# ignore auxiliary directories and files
+/notes/
