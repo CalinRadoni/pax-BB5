@@ -35,6 +35,9 @@ The software and documentation are released under the [GNU GPLv3](http://www.gnu
 The hardware schematics are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 See the __LICENSE-CC-BY-SA-4.0.txt__ file.
 
-The code for Arduino Variant is released under the [BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clause)
+The code for Arduino Variant is:
+
 - Copyright (c) 2021, STMicroelectronics
 - Copyright (c) 2021, CalinRadoni (https://github.com/CalinRadoni)
+
+and released under the [BSD 3-Clause license](https://opensource.org/licenses/BSD-3-Clause).
