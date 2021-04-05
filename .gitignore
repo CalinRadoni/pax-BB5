@@ -5,6 +5,7 @@
 # ignore KiCad's backup files
 /HW/*.bak
 /HW/*.kicad_pcb-bak
+/HW/*.sch-bak
 
 # ignore PlatformIO's build directory
 /.pio/

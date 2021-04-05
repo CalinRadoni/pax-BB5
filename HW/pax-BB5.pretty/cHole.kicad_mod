@@ -1,0 +1,12 @@
+(module Calin:cHole (layer F.Cu) (tedit 564A4E38)
+  (descr "Through hole pin header")
+  (tags "pin header")
+  (clearance 0.9)
+  (fp_text reference H2 (at 0 -5.1) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Hole (at 0 -3.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 3.556 3.556) (drill 2.286) (layers *.Cu *.Mask F.SilkS))
+)
