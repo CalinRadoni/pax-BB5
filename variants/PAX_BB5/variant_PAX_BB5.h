@@ -11,9 +11,10 @@
  *******************************************************************************
  *
  * Copyright (c) 2021, CalinRadoni (https://github.com/CalinRadoni)
- * 
+ *
  * This file is part of PAX_BB5 Arduino Variant (https://github.com/CalinRadoni/pax-BB5)
  * Original file was heavily modified for pax-BB5 board (STM32L051K8T MCU)
+ * Guidelines from https://github.com/stm32duino/Arduino_Core_STM32/tree/main/variants/STM32L0xx/L051K(6-8)T
  *
  *******************************************************************************
  */
@@ -75,6 +76,9 @@ unsigned char SystemClock_Config_ExitCode(void);
 // On-board user button
 #define USER_BTN                PA8
 
+// IRQ from RFM module
+#define PIN_IRQ_Radio           PB1
+
 // SPI definitions
 #define PIN_SPI_SS_Mem          PA4
 #define PIN_SPI_SS_Radio        PB0
@@ -95,6 +99,12 @@ unsigned char SystemClock_Config_ExitCode(void);
 #define PIN_SERIAL_TX           PA9
 
 // Timer Definitions
+// Available timers are:
+//    LPTIM1
+//    TIM2 usable for (PA0, PA1, PA2 and PA3) or (PA15 and PB3)
+//    TIM6
+//    TIM21
+//    TIM22 usable for PB4 and PB5
 // Use TIM6/TIM7 when possible as servo and tone don't need GPIO output pin
 #define TIMER_TONE              TIM6
 #define TIMER_SERVO             TIM21
