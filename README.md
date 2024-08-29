@@ -23,7 +23,7 @@ The selection between directories is made through `platformio.ini` configuration
 - [PlatformIO](https://platformio.org) Core, version 5.1.1.
 - editing was done in [Visual Studio Code](https://code.visualstudio.com)
 - version control with [Git](https://git-scm.com)
-- [KiCad EDA](http://kicad-pcb.org/) for hardware schematic and PCB board
+- [KiCad EDA](http://kicad.org/) for hardware schematic and PCB board
 - [GIMP](https://www.gimp.org/) and [Inkscape](https://inkscape.org/en/) for images
 
 ## License
